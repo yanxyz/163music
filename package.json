@@ -1,0 +1,14 @@
+{
+  "name": "163music",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Ivan Yan",
+  "license": "MIT",
+  "private": true,
+  "repository": "yanxyz/163music",
+  "dependencies": {
+    "big-integer": "^1.6.25",
+    "got": "^7.1.0",
+    "yargs-parser": "^7.0.0"
+  }
+}
