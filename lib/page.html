@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>网易云音乐</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <h1>
+    歌单：
+    <a href="http://music.163.com/playlist?id={{id}}">{{name}}</a>
+  </h1>
+
+  <div class="container">
+    <small class="total">总计 {{total}}</small>
+    <table class="m-table">
+      <thead>
+        <tr>
+          <th class="first w1">
+            <div class="wp">&nbsp;</div>
+          </th>
+          <th>
+            <div class="wp">歌曲标题</div>
+          </th>
+          <th class="w2">
+            <div class="wp">时长</div>
+          </th>
+          <th class="w3">
+            <div class="wp">歌手</div>
+          </th>
+          <th class="w4">
+            <div class="wp">专辑</div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {{tbody}}
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
